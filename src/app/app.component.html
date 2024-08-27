@@ -1,0 +1,20 @@
+<h2>Leonardo de Souza Alencar</h2>
+<hr/>
+
+<ul>
+  <li>E-mail: leonardosouza.alencar04@gmail.com</li>
+  <li>Telefone: 11966331106</li>
+</ul>
+
+<hr/>
+<app-item-teste></app-item-teste>
+
+<app-item-detail></app-item-detail>
+
+<app-item-output (newItemEvent)="addItem($event)">   
+</app-item-output>
+
+
+<ul> 
+<li *ngFor="let item of items">{{item}}</li> 
+</ul>
